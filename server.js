@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 import videos from './dbModel.js';
 
 const app = express();
-const port = 9000;
+const port = process.env.PORT || 9000;
 const connection_url = "mongodb+srv://admin:drZpIigqpiojVQfi@cluster0.jch8x.mongodb.net/vidApp?retryWrites=true&w=majority";
 
 app.use(express.json());
