@@ -1,5 +1,5 @@
 {
-  "name": "tik-tok-backend",
+  "name": "viddy-backend",
   "version": "1.0.0",
   "description": "Full Stack Tik-tok clone",
   "main": "server.js",
